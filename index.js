@@ -51,7 +51,7 @@ CoffeeCompile.prototype = {
 			cmd = coffee + ' --compile --output '+output+'/ ' + input+'/';
 		exec(cmd, {encoding: that.encode}, function(error){
 			if(error != null){
-				console.log(error);
+				throw new Error(error);
 				return
 			}
 			that.total--;
