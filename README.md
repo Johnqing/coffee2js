@@ -1,24 +1,28 @@
-编译less，然后整理css
+编译coffee，然后整理js
 =====================
 
-根目录下，防止该项目中的文件，
-
-修改 `feBuild.js` 中的 配置项 
+## 安装
 
 ```
-var defConf = {
-    "encode": "utf-8",
-    "workspace": "./src/www/front/resource/",
-    "ignore": 'combo',
-    "input":  "css",
-    "lessInput": "other/less"
+npm install coffee2js
+```
+
+## 使用
+
+```
+var c2j = require('coffee2js');
+
+c2j.coffee2js(opts);
+```
+
+## 可传入参数
+
+```
+{
+	public_dir:'./src/www/front/resource/',
+	coffee_dir: 'other/coffee',
+	js_root: 'js',
+	encode: 'utf-8'
 }
 
-```
-
-运行
-
-```
-npm install
-node feBuild
 ```
