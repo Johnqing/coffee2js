@@ -1,0 +1,10 @@
+node_modules/
+
+.idea/
+
+*.bak
+
+test.js
+
+src/
+bin/
