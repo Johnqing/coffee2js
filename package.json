@@ -1,15 +1,12 @@
 {
 	"name": "coffee2js",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"readmeFilename": "README.md",
 	"description": "编译coffee为js",
 	"homepage": "https://github.com/Johnqing/coffee2js",
 	"repository": "https://github.com/Johnqing/coffee2js",
 	"keywords": [],
 	"main": "./index.js",
-	"bin": {
-		"coffee2js": "./bin/coffee2js"
-	},
 	"dependencies": {
 		"filetools": "*",
 		"coffee-script": "*",
