@@ -2,7 +2,7 @@ var path = require('path');
 var exec = require('child_process').exec
 var fTools = require('filetools');
 
-var coffee = path.resolve('./node_modules/.bin/coffee.cmd');
+var coffee = path.resolve(__dirname +'/node_modules/.bin/coffee.cmd');
 
 var CoffeeCompile = function(opts, onend){
 	this.public_dir = opts.public_dir;

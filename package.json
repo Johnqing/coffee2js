@@ -1,6 +1,6 @@
 {
 	"name": "coffee2js",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"readmeFilename": "README.md",
 	"description": "编译coffee为js",
 	"homepage": "https://github.com/Johnqing/coffee2js",
